@@ -1,0 +1,64 @@
+﻿body {
+    background-color: floralwhite;
+    font-size: 150%;
+    font-family: 'Agency FB';
+}
+
+.row {
+    text-align: center;
+    padding: 10px;
+}
+
+.adjuster {
+    display: inline-block;
+}
+
+.row p{
+    display:block;
+    padding:5px 80px;
+    margin:0;
+}
+
+.row a {
+    padding:0 10px;
+    font-size:130%;
+    text-decoration:none;
+    color:black;
+}
+
+.row button {
+    display: inline-block;
+    font-family: inherit;
+    font-size: 100%;
+    top: 10px;
+    bottom: 10px;
+    background-color: navajowhite;
+}
+
+#stopBtn{
+    width:80px;
+}
+
+#continuous {
+        width: 220px;
+    }
+
+.row button:focus{
+    outline:none;
+}
+.canv {
+    width:350px;
+    height:350px;
+    margin:auto;
+    display:block;
+    position:relative;
+}
+
+.canv>#timerDiv{
+    position:absolute;
+    top:110px;
+    left:100px;
+    text-align:center;
+    opacity:0;
+    width:150px;
+}
